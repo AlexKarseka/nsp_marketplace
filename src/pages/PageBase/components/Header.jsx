@@ -6,7 +6,7 @@ import MainLogo from "../../../components/MainLogo";
 const Header = () => {
     return (
         <div>
-            <div className="py-5 px-16 w-full flex justify-between bg-[#007f6e]">
+            <div className="py-2 px-16 w-full flex justify-between bg-[#007f6e]">
                 <MainLogo />
 
                 <nav className="flex items-center mr-10 gap-5 text-white font-black uppercase">

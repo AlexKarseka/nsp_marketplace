@@ -7,7 +7,9 @@ const PageBase = ({children}) => {
     return (
         <div>
             <Header/>
-            {children}
+            <div>
+                {children}
+            </div>
             <Footer/>
         </div>
     );
