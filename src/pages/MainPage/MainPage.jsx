@@ -6,6 +6,8 @@ import Description from "./components/Description";
 import WhyNsp from "./components/WhyNsp";
 import Advantages from "./components/Advantages";
 import QualityServiceReliability from "./components/QualityServiceReliability";
+import Reviews from "./components/Reviews";
+import DiscountForm from "./components/DiscountForm";
 
 const MainPage = () => {
     return (
@@ -15,6 +17,8 @@ const MainPage = () => {
             <WhyNsp />
             <Advantages />
             <QualityServiceReliability />
+            <Reviews />
+            <DiscountForm />
         </PageBase>
     )
 }

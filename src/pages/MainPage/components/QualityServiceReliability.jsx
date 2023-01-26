@@ -8,6 +8,7 @@ import Gift from "../assets/svg/gift.svg";
 import Truck from "../assets/svg/truck.svg";
 import MagicWand from "../assets/svg/magic-wand.svg";
 import Heart from "../assets/svg/heart.svg";
+import Quality from "../assets/Quality.jpg";
 
 const QualityServiceReliability = () => {
     const qualityServiceReliabilityData = [
@@ -55,18 +56,18 @@ const QualityServiceReliability = () => {
 
     return (
         <div className="mt-16 px-10">
-            <div className="text-4xl font-bold text-[#007f6e] text-center">
+            <div className="text-4xl font-bold text-[#007f6e] text-center mb-10">
                 Качество. Сервис. Надежность
             </div>
-            <div className="flex">
-                <img />
+            <div className="flex gap-10">
+                <img className="max-h-[520px] rounded-xl" src={Quality} alt="Quality" />
                 <div className="grid grid-cols-2">
                     {qualityServiceReliabilityData.map((card) => {
                         return (
                             <div key={card.title} className="flex">
-                                <img src={card.logo} alt={card.title} />
+                                <img className="h-8 mr-8" src={card.logo} alt={card.title} />
                                 <div>
-                                    <div className="text-[#007f6e]">{card.title}</div>
+                                    <div className="text-[#007f6e] font-bold mb-5">{card.title}</div>
                                     <div className="text-[#777777]">{card.text}</div>
                                 </div>
                             </div>
