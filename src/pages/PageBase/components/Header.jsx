@@ -9,13 +9,12 @@ const Header = () => {
             <div className="py-2 px-16 w-full flex justify-between bg-[#007f6e]">
                 <MainLogo />
 
-                <nav className="flex items-center mr-10 gap-5 text-white font-black uppercase">
-                    <NavLink className="hover:opacity-70" to="/news"> О Компании </NavLink>
-                    <NavLink className="hover:opacity-70" to="/news"> Продукты </NavLink>
-                    <NavLink className="hover:opacity-70" to="/news"> Цены </NavLink>
-                    <NavLink className="hover:opacity-70" to="/news"> Бизнес с NSP </NavLink>
-                    <NavLink className="hover:opacity-70" to="/news"> Обо мне </NavLink>
-                    <NavLink className="hover:opacity-70" to="/news"> Полезные Статья </NavLink>
+                <nav className="flex items-center mr-10 gap-5 text-white font-bold uppercase">
+                    <NavLink className="hover:opacity-70" to="/about"> О Компании </NavLink>
+                    <NavLink className="hover:opacity-70" to="/products"> Продукты </NavLink>
+                    <NavLink className="hover:opacity-70" to="/business"> Бизнес с NSP </NavLink>
+                    <NavLink className="hover:opacity-70" to="/about_me"> Обо мне </NavLink>
+                    <NavLink className="hover:opacity-70" to="/article"> Полезные Статья </NavLink>
                 </nav>
             </div>
         </div>

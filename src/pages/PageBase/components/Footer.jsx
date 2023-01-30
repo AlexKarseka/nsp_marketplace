@@ -14,14 +14,14 @@ const Footer = () => {
                 <MainLogo/>
 
                 <nav className="flex flex-col mr-6 gap-4 text-white font-black">
-                    <NavLink className="hover:opacity-70" to="/news"> О Компании </NavLink>
-                    <NavLink className="hover:opacity-70" to="/news"> Продукты </NavLink>
-                    <NavLink className="hover:opacity-70" to="/news"> Цены </NavLink>
+                    <NavLink className="hover:opacity-70" to="/"> Главная </NavLink>
+                    <NavLink className="hover:opacity-70" to="/about"> О Компании </NavLink>
+                    <NavLink className="hover:opacity-70" to="/products"> Продукты </NavLink>
                 </nav>
                 <nav className="flex flex-col gap-4 text-white font-black">
-                    <NavLink className="hover:opacity-70" to="/news"> Бизнес с NSP </NavLink>
-                    <NavLink className="hover:opacity-70" to="/news"> Обо мне </NavLink>
-                    <NavLink className="hover:opacity-70" to="/news"> Полезные Статья </NavLink>
+                    <NavLink className="hover:opacity-70" to="/business"> Бизнес с NSP </NavLink>
+                    <NavLink className="hover:opacity-70" to="/about_me"> Обо мне </NavLink>
+                    <NavLink className="hover:opacity-70" to="/article"> Полезные Статья </NavLink>
                 </nav>
 
                 <div className="flex flex-col gap-4 text-white">
